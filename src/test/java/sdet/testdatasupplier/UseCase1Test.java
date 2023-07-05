@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 public class UseCase1Test {
 
-    //firstDimensions-->no. of times est will run
+    //firstDimensions-->no. of times Test will run
     //secondDimension-->no. of parameters passed to the test
     @DataProvider
     public Object[][] getData() {

@@ -38,7 +38,7 @@ public class EmployeeTemplate implements TemplateLoader {
             //add("address", one(Address.class, "valid"));
         }});
 
-       /* Fixture.of(Employee.class).addTemplate("inValid", new Rule() {{
+        Fixture.of(Employee.class).addTemplate("inValid", new Rule() {{
             add("id", uniqueRandom(101, 999));
             add("fname", random("suraj", "sukumar", "sudarshan", "mahesh"));
             add("isFTE", random(true, false));
@@ -51,10 +51,9 @@ public class EmployeeTemplate implements TemplateLoader {
         Fixture.of(Employee.class).addTemplate("invalidName").inherits("valid", new Rule() {{
             add("fname", random("sur-aj", "suku/mar", "sudar]shan", "mah[]esh"));
         }});
-*/
-       /* Fixture.of(Address.class).addTemplate("valid", new Rule() {{
+        Fixture.of(Address.class).addTemplate("valid", new Rule() {{
             add("street", random("street1", "street3"));
             add("city", random("city1", "city3"));
-        }});*/
+        }});
     }
 }

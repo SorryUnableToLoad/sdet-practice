@@ -2,11 +2,16 @@ package sdet.fixtures;
 
 import br.com.six2six.fixturefactory.Fixture;
 import br.com.six2six.fixturefactory.loader.FixtureFactoryLoader;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import sdet.fixtures.pojo.Employee;
 
 import java.util.List;
+
+import static io.restassured.RestAssured.given;
 
 public class PostEmployeeTest {
 
@@ -23,7 +28,7 @@ public class PostEmployeeTest {
 
 
 
-   /* @DataProvider(parallel = true)
+    @DataProvider(parallel = true)
     public static Object[][] getData() {
         Employee valid = Fixture.from(Employee.class).gimme("valid");
         Employee invalidId = Fixture.from(Employee.class).gimme("invalidId");
@@ -47,6 +52,6 @@ public class PostEmployeeTest {
 
         response.then().assertThat().statusCode(201);
         System.out.println(employee);
-    }*/
+    }
 
 }

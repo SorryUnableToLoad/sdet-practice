@@ -19,7 +19,7 @@ public class Runner {
         Address validAddress = Fixture.from(Address.class).gimme("aValid");
         Fixture.of(Employee.class).addTemplate("valid", new Rule() {{
             add("id", random(Integer.class, range(101, 999)));
-            add("fname", random("suraj", "sukumar", "sudarshan", "mahesh"));
+            add("fname", random("suraj", "Sukumar", "Sudarshan", "Mahesh"));
             add("isFTE", random(true, false));
             add("roles", uniqueRandom(Arrays.asList("tester"), Arrays.asList("QA")));
             //add("address", random(new Address("2nd street", "mangalore")));
@@ -30,7 +30,7 @@ public class Runner {
         System.out.println(valid);
         System.out.println("************************************************************************");
         List<Object> valid1 = Fixture.from(Employee.class).gimme(6, "valid");
-        valid1.forEach(System.out::println);
+        //valid1.forEach(System.out::println);
 
     }
 }
