@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/surajkumarnaganuri/IdeaProjects/PRACTICE">
+        <classes>
+            <class name="javaPrectice.consumer_interface.Use_Case_Test_1">
+                <methods>
+                    <include name="testRunner"/>
+                </methods>
+            </class>
+            <class name="javaPrectice.consumer_interface.Use_Case_Test_2">
+                <methods>
+                    <include name="testRunner"/>
+                    <include name="testRunner1"/>
+                </methods>
+            </class>
+            <class name="javaPrectice.functional_interface.TestRunner">
+                <methods>
+                    <include name="returnBoolean"/>
+                </methods>
+            </class>
+            <class name="bp.TY_prac.FileUploadingBySikuli">
+                <methods>
+                    <include name="uploadFileTest"/>
+                </methods>
+            </class>
+            <class name="bp.TY_prac.UnitTest">
+                <methods>
+                    <include name="update"/>
+                </methods>
+            </class>
+            <class name="bp.apipetprac.PetRequestChain">
+                <methods>
+                    <include name="uploadPetImage"/>
+                    <include name="validatePojoToJson"/>
+                </methods>
+            </class>
+            <class name="bp.makemytrip.make">
+                <methods>
+                    <include name="run"/>
+                </methods>
+            </class>
+            <class name="bp.makemytrip.makemytrip">
+                <methods>
+                    <include name="run"/>
+                </methods>
+            </class>
+            <class name="bp.prac.JavaScriptMethods">
+                <methods>
+                    <include name="launchBrowser"/>
+                </methods>
+            </class>
+            <class name="bp.prac.NewTab">
+                <methods>
+                    <include name="tab"/>
+                </methods>
+            </class>
+            <class name="bp.prac.SpiceJet">
+                <methods>
+                    <include name="jet"/>
+                </methods>
+            </class>
+            <class name="bp.ty.DataProvider">
+                <methods>
+                    <include name="createOrgWithDataProvider"/>
+                </methods>
+            </class>
+            <class name="bp.ty.DataProviderExcel">
+                <methods>
+                    <include name="createOrgWithDataProviderExcel"/>
+                    <include name="createOrgWithDataProvider"/>
+                </methods>
+            </class>
+            <class name="bp.ty.FlipKart_Booking">
+                <methods>
+                    <include name="ticketBooking"/>
+                </methods>
+            </class>
+            <class name="bp.ty.FlipKart_BookingfeaturedateTest">
+                <methods>
+                    <include name="ticketBooking"/>
+                </methods>
+            </class>
+            <class name="bp.ty.Handling_Calender_Popups">
+                <methods>
+                    <include name="calenderPopups"/>
+                </methods>
+            </class>
+            <class name="bp.ty.ProjectUnitTest_testng">
+                <methods>
+                    <include name="projectUnitTest"/>
+                </methods>
+            </class>
+            <class name="bp.ty.ProjectUpdate">
+                <methods>
+                    <include name="update"/>
+                </methods>
+            </class>
+            <class name="bp.ty.makeMyTripCalenderAnydateTest">
+                <methods>
+                    <include name="claender"/>
+                </methods>
+            </class>
+            <class name="bp.ty.makeMyTripCalenderTest">
+                <methods>
+                    <include name="claender"/>
+                </methods>
+            </class>
+            <class name="javaPrectice.TestAssignment">
+                <methods>
+                    <include name="testLinks"/>
+                    <include name="testLinks1"/>
+                </methods>
+            </class>
+            <class name="sdet.JSONPARSE.GsonHelperTest">
+                <methods>
+                    <include name="gsonHelperTest"/>
+                </methods>
+            </class>
+            <class name="sdet.JSONPARSE.JSONUtilsTest">
+                <methods>
+                    <include name="jSONUtilsTest"/>
+                </methods>
+            </class>
+            <class name="sdet.JSONPARSE.JsonTest">
+                <methods>
+                    <include name="parse"/>
+                    <include name="fromJson"/>
+                    <include name="toJson"/>
+                    <include name="stringify"/>
+                    <include name="prettyPrint"/>
+                </methods>
+            </class>
+            <class name="sdet.externalfilereading.excelfile.ExcelRunner">
+                <methods>
+                    <include name="testWithExcel"/>
+                    <include name="testWithExcelAndMap"/>
+                    <include name="excelReader"/>
+                </methods>
+            </class>
+            <class name="sdet.externalfilereading.excelfile.zerocell.ZeroCellTestDataTest">
+                <methods>
+                    <include name="zeroCell"/>
+                </methods>
+            </class>
+            <class name="sdet.fixtures.PostEmployeeTest">
+                <methods>
+                    <include name="test"/>
+                    <include name="postEmployeeTest"/>
+                </methods>
+            </class>
+            <class name="sdet.podam.PodamGenericTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="sdet.podam.PodamTest">
+                <methods>
+                    <include name="test"/>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="sdet.testdatasupplier.UseCase1Test">
+                <methods>
+                    <include name="testDemo"/>
+                    <include name="testDemo1"/>
+                    <include name="testDemo2"/>
+                    <include name="testDemo3"/>
+                </methods>
+            </class>
+            <class name="sdet.testdatasupplier.UseCase3Test">
+                <methods>
+                    <include name="testDemo"/>
+                    <include name="testDemo1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

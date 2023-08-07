@@ -6,41 +6,41 @@ import io.github.sskorol.data.Sheet;
 
 @Sheet(name = "Sheet1")
 public class ZeroCellTestData {
-    @Column(name = "fname", index = 0)
-    private String fname;
+    @Column(name = "fName", index = 0)
+    private String fName;
 
-    @Column(name = "lname", index = 1)
-    private String lname;
+    @Column(name = "lName", index = 1)
+    private String lName;
 
-    @Column(name = "mobileno", index = 2)
-    private long mobileno;
+    @Column(name = "mobileNo", index = 2)
+    private long mobileNo;
 
-    @Column(name = "isboolean", index = 3, converterClass = BooleanConverter.class)
-    private boolean isboolean;
+    @Column(name = "isBoolean", index = 3, converterClass = BooleanConverter.class)
+    private boolean isBoolean;
 
     @Override
     public String toString() {
         return "ZeroCellTestData{" +
-                "fname='" + fname + '\'' +
-                ", lname='" + lname + '\'' +
-                ", mobileno=" + mobileno +
-                ", isboolean=" + isboolean +
+                "fName='" + fName + '\'' +
+                ", lName='" + lName + '\'' +
+                ", mobileNo=" + mobileNo +
+                ", isBoolean=" + isBoolean +
                 '}';
     }
 
-    public String getFname() {
-        return fname;
+    public String getFName() {
+        return fName;
     }
 
-    public String getLname() {
-        return lname;
+    public String getLName() {
+        return lName;
     }
 
-    public long getMobileno() {
-        return mobileno;
+    public long getMobileNo() {
+        return mobileNo;
     }
 
-    public Boolean getIsboolean() {
-        return isboolean;
+    public Boolean getIsBoolean() {
+        return isBoolean;
     }
 }

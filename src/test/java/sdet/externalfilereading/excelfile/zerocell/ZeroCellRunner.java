@@ -7,11 +7,11 @@ import java.util.List;
 
 public class ZeroCellRunner {
     public static void main(String[] args) {
-        List<ZeroCellTestData> testdates = Reader.of(ZeroCellTestData.class)
+        List<ZeroCellTestData> testData = Reader.of(ZeroCellTestData.class)
                 .from(new File("./src/test/resources/externalfile/testdata.xlsx"))
                 .sheet("sheet1")
                 .skipHeaderRow(true).list();
 
-        testdates.forEach(System.out::println);
+        testData.forEach(System.out::println);
     }
 }
