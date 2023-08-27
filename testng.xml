@@ -3,18 +3,18 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/surajkumarnaganuri/IdeaProjects/PRACTICE">
         <classes>
-            <class name="javaPrectice.consumer_interface.Use_Case_Test_1">
+            <class name="org.javapractice.consumer_interface.Use_Case_Test_1">
                 <methods>
                     <include name="testRunner"/>
                 </methods>
             </class>
-            <class name="javaPrectice.consumer_interface.Use_Case_Test_2">
+            <class name="org.javapractice.consumer_interface.Use_Case_Test_2">
                 <methods>
                     <include name="testRunner"/>
                     <include name="testRunner1"/>
                 </methods>
             </class>
-            <class name="javaPrectice.functional_interface.TestRunner">
+            <class name="org.javapractice.functional_interface.TestRunner">
                 <methods>
                     <include name="returnBoolean"/>
                 </methods>
@@ -106,7 +106,7 @@
                     <include name="claender"/>
                 </methods>
             </class>
-            <class name="javaPrectice.TestAssignment">
+            <class name="org.javapractice.TestAssignment">
                 <methods>
                     <include name="testLinks"/>
                     <include name="testLinks1"/>
